@@ -30,7 +30,7 @@
   }
   
   li a:hover:not(.active) {
-    background-color: #2f2f32;
+    background-color: #04AA6D;
     color: white;
   }
 
@@ -70,7 +70,7 @@
   
   }
 
-  .contentcenter{
+  .content-center{
     align-content: center;
   }
   
@@ -95,3 +95,24 @@
     border-radius: 10px;
   }
 
+
+
+  /* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: aquamarine;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
