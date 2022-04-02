@@ -7,6 +7,7 @@
     padding: 0;
     width: 175px;
     background-color: #aeaeae;
+    border-radius: 15px;
   }
 
     
@@ -70,29 +71,54 @@
   
   }
 
-  .content-center{
-    align-content: center;
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+    
+  
+
+  .transparent {
+    margin: auto;
+    padding: 0px;
+    font-size: 25px;
+    width: 33%;
+    border-radius: 10px;
   }
   
 
   .transparent-light {
     margin: auto;
-    padding: 0 20px;
+    padding: 15px;
     color: #2f2f32;
-    font-size: 35px;
-    width: 50%;
+    font-size: 25px;
+    width: 20%;
     background-color: #aeaeae;
     border-radius: 10px;
   }
 
   .transparent-dark {
-    margin: auto;
-    padding: 0 20px;
+    margin:auto;
+    padding: 15px;
     color: #aeaeae;
-    font-size: 35px;
-    width: 50%;
+    font-size: 15px;
+    width: 20%;
     background-color: #2f2f32;
     border-radius: 10px;
+  }
+
+
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
 
 
@@ -116,3 +142,41 @@ a:hover {
 a:active {
   color: blue;
 }
+
+/*Small Screens*/
+
+@media screen and (max-width: 600px) {
+
+  .transparent {
+    margin: auto;
+    padding: 35px;
+    color: #00000000;
+    font-size: 15px;
+    width: auto;
+    background-color: #00000000;
+    border-radius: 10px;
+  }
+  
+
+  .transparent-light {
+    margin: auto;
+    padding: 10px;
+    color: #2f2f32;
+    font-size: 25px;
+    width: auto;
+    background-color: #aeaeae;
+    border-radius: 10px;
+  }
+
+  .transparent-dark {
+    margin:auto;
+    padding: 10px;
+    color: #aeaeae;
+    font-size: 15px;
+    width: auto;
+    background-color: #2f2f32;
+    border-radius: 10px;
+  }
+
+}
+ 
