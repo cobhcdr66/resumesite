@@ -14,7 +14,7 @@ ul {
 
 li a {
   display: block;
-  color: #000;
+  color: #000000;
   padding: 8px 16px;
   text-decoration: none;
 }
@@ -94,7 +94,7 @@ h1 {
 }
 
 p {
-  color: #1b7477;
+  color: #21aaaf;
 
   opacity: 100%;
 
@@ -178,12 +178,12 @@ video {
 
 /* unvisited link */
 a:link {
-  color: blue;
+  color: #131386;
 }
 
 /* visited link */
 a:visited {
-  color: blue;
+  color: #131386;
 }
 
 /* mouse over link */
@@ -193,7 +193,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: blue;
+  color: #131386;
 }
 
 
@@ -223,7 +223,7 @@ a:active {
 }
 
 /* Responsive columns */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .column {
     width: 100%;
     display: block;
@@ -303,6 +303,7 @@ a:active {
     left: 50%;
     transform: translateX(-50%);
   }
+  
   
 
 
