@@ -93,6 +93,13 @@ h1 {
 
 }
 
+p {
+  color: #1b7477;
+
+  opacity: 100%;
+
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -143,7 +150,11 @@ h1 {
   margin: auto;
 }
 
-
+.flex-center {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
 
 img {
   border: 1px solid #ddd;
@@ -158,7 +169,7 @@ img:hover {
 
 video {
   position: relative;
-  left: 50%;
+  left: 35%;
   transform: translateX(-50%);
 }
 
@@ -186,7 +197,7 @@ a:active {
 }
 
 
-
+/* Card Attributes */
 * {
   box-sizing: border-box;
   border-radius: 10px;
@@ -275,6 +286,24 @@ a:active {
     border-radius: 10px;
   }
 
+   
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  
+  video {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
 
 
 
