@@ -206,7 +206,7 @@ a:active {
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 25%;
+  width: 33%;
   padding: 0 10px;
 }
 
@@ -286,25 +286,25 @@ a:active {
     border-radius: 10px;
   }
 
-   
+
   img {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 150px;
   }
-  
+
   img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
-  
+
   video {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
   }
-  
-  
+
+
 
 
 
